@@ -1,5 +1,5 @@
 #Thanks to catuserbot for this plugin 
-# modified by @No_OnE_Kn0wS_Me 
+# modified by Abhiram 
 import requests
 from bs4 import BeautifulSoup
 from telethon import events
@@ -79,7 +79,7 @@ async def _(event):
                 loa,
                 force_document=True,
                 allow_cache=False,
-                caption="Audio File HQ Successfully Uploaded By:`@uSe_DaRk_PrInCe",
+                caption="Audio File HQ Successfully Uploaded By:`@a_b_h_i_r_a_m_47",
                 reply_to=reply_to_id
             )
     await event.delete()
@@ -123,7 +123,7 @@ async def _(event):
                 loa,
                 force_document=True,
                 allow_cache=False,
-                caption="`Video File Successfully Uploaded By:` @uSe_DaRk_PrInCe",
+                caption="`Video File Successfully Uploaded By:` @a_b_h_i_r_a_m_47",
                 supports_streaming=True,
                 reply_to=reply_to_id,
                 attributes=[DocumentAttributeVideo(
