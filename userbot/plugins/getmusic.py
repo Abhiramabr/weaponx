@@ -24,7 +24,7 @@ async def _(event):
     reply = await event.get_reply_message()
     if event.pattern_match.group(1):
         query = event.pattern_match.group(1)
-        await event.edit("wi8..! I am finding your song....")
+        await event.edit("wait🔥..! I am finding your song....")
     elif reply.message:
         query = reply.message
         await event.edit("wi8..! I am finding your song....")
@@ -35,7 +35,7 @@ async def _(event):
     await catmusic(str(query),"128k")
     l = glob.glob("*.mp3")
     if l:
-        await event.edit("yeah..! i found something wi8..🥰")
+        await event.edit("yeah..! i found something wait👻..🥰")
     else:
         await event.edit(f"Sorry..! i can't find anything with `{query}`")
     loa = l[0]    
@@ -44,7 +44,7 @@ async def _(event):
                 loa,
                 force_document=True,
                 allow_cache=False,
-                caption="`Audio File Medium Quality Successfully Uploaded By:`@uSe_DaRk_PrInCe",
+                caption="`Audio File Medium Quality Successfully Uploaded By:`@a_b_h_i_r_a_m_47",
                 reply_to=reply_to_id
             )
     await event.delete()
