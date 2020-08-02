@@ -1,6 +1,6 @@
-# (c) Shrimadhav U K
+# (c) Abhiram
 #
-# This file is part of @UniBorg
+# This file is part of @a_b_h_i_r_a_m_47
 #
 # @UniBorg is free software; you cannot redistribute it and/or modify
 # it under the terms of the GNU General Public License as published
@@ -72,7 +72,7 @@ async def _(event):
             )
         end = datetime.now()
         ms = (end - start).seconds
-        await event.edit("Removed dat annoying Backgroup in {} seconds, powered by @uSe_DaRk_PrInCe".format(ms))
+        await event.edit("Removed dat annoying Backgroup in {} seconds, by @a_b_h_i_r_a_m_47".format(ms))
     else:
         await event.edit("ReMove.BG API returned Errors. Please report to @UniBorg\n`{}".format(output_file_name.content.decode("UTF-8")))
 
